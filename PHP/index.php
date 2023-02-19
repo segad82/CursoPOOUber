@@ -1,8 +1,8 @@
 <?php 
-include 'Car.php';
-include 'Account.php';
+require_once('UberX.php');
+require_once('Account.php');
 
-$car = new Car('AMQ123', new Account('Kevin Lopez', 'KLO123'));
-$car->printDataCar();
+$uberX = new UberX('AMQ123', new Account('Kevin Lopez', 'KLO123'), 'Chevrolet', 'Sail');
+$uberX->printDataCar();
 
 ?>

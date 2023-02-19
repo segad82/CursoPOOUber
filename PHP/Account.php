@@ -8,7 +8,7 @@ class Account {
 
     public function __construct($name, $document) {
         $this->name = $name;
-        $this->docuemnt = $document;
+        $this->document = $document;
     }
 }
 ?>
